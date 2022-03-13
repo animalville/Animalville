@@ -26,7 +26,7 @@ Each governor has 1 vote regardless on how many AVS tokens he/she has
 Each AnimalVille member has the same number of votes as he has AVS coins
 
 The decision can be reached by one of two ways:
-- majority of Animal Ville governors voting the period but can be overturn by 
+- majority of Animal Ville governors but can be overturned by 
 - majority of all tokens reaching a decision.
 
 
