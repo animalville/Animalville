@@ -36,7 +36,7 @@ The money in community wallet can be spend according to governance rules set abo
 - transfering to outside wallet (for any service provided to community - development, marketing, ...) that was decided in governance procedures
 - burning the tokens.
 
-#Milestones
+# Milestones
 
 1. Setting the rules
 2. Creating smart contracts to implement the rules
@@ -45,7 +45,7 @@ The money in community wallet can be spend according to governance rules set abo
   - implement auctions
   - animal feeding
   - pet the animal
-  - feed the animal
+  - clean the animal
 5. Create 3D animals and web based 3D user interface when enough coins to finance it in community wallet
 
 # Rules
