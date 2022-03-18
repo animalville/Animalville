@@ -33,7 +33,7 @@ The decision can be reached by one of two ways:
 4. Community wallet
 
 The money in community wallet can be spend according to governance rules set above for following actions:
-- transfering to outside wallet (for any service provided to community - development, marketing, ...) that was decided in governance procedures
+- transfering to outside wallet (for any service provided to community - development, marketing, ... ) that was decided in governance procedures
 - burning the tokens.
 
 # Milestones
