@@ -27,15 +27,26 @@ Each AnimalVille member has the same number of votes as he has AVS coins
 
 A decision can be reached by one of two ways:
 - majority of Animal Ville governors but this can be overturned by 
-- majority of all tokens reaching a decision.
+- majority of all tokens.
 
 
 4. Community wallet
 
 The money in the community wallet can be spent according to governance rules set above for following actions:
 - transfering to an outside wallet (for any service provided to community - development, marketing, ...) that was decided in governance procedures
-
 - burning the tokens.
+
+5. Proposals for new animals
+
+Everyone can submit a proposal for new species and/or breeds. Proposal has to be submited to smart contract. This function call makes a snapshot of current state of blockchain, determines who governors are and gives all approx. 24h to vote on proposal. If proposal is supported by majority that the species/breed gets created and 24h bidding starts. The proposal has to follow strict rules or it gets rejected by smart contract right away.
+
+Wallet that suggested the species gets 20% of revenue from bidding if the proposal is accepted.
+
+6. Proposal for perks
+
+Everyone can submit a proposal for perks. Proposal has to be submited to smart contract. The call makes a snapshot of current state of blockchain, determines who governors are and gives all approx. 24h to vote on proposal. If proposal is supported by majority the perks is available for all straight away. 
+
+Perks can be bough and applied to pets. 50% of proceeding of the sale of the perk goes to creator and 50% of procedings go to community wallet.
 
 # Milestones
 
@@ -55,7 +66,7 @@ The money in the community wallet can be spent according to governance rules set
 2.	All animals have hunger, happiness and health meters. As any of those fall to 0, the animal dies.
 3.	Happiness - play with the animal at least once a day.
 4.	Wellbeing - clean after the animal.
-5.	All of the above can be bought - either by smart contract or by hiring people to do it. Hiring people is cheaper - there is a minimum fee set, but people have to /can  bid.
+5.	All of the above can be bought - either by smart contract or by hiring people to do it.
 6.	Each breed has their own master breed characters - 3 females and 3 males. 
 7.	Master breed characters that get released are decided by governance.
 8.	If a pet dies, it can not be recovered.
@@ -66,12 +77,13 @@ The money in the community wallet can be spent according to governance rules set
 13.	AVC is minted each time a transaction is made in ecosystem - feeding, petting, cleaning.
 14.	Actions can be done by non pet owners too - in that case, the owner of the pet receives 10% of AVC minted and the one doing the above service receives 90% of AVC minted.
 15.	AVC is burned when used - when buying food, buying perks …
-16.	When buying master species in the auctions, AVC is send to the master wallet - controlled by governance.
+16.	When buying master species in the auctions, 80% of AVC is send to the master wallet - controlled by governance and 20% gets send to wallet address that suggested the species.
 17.	Above action can be blocked by owner - except for master species characters.
 18.	Food costs 70% of AVC minted per day.
 19.	Auctions of master species characters are in AVC.
-20.	Pets can get perks - bought in AVC.
-21.	Perks can be created by anyone - A creator receives 80% of the fees when applying theri perks to the pet, 20% of the fees get burned.
-22.	The higher the amount of health, happiness and wellbeing restores, more AVC they receive.
-23.	100% health gives 1 AVC, 100% wellbeing gives 1 AVC, a 100% fed pet gives 8 AVC
-24.	Food costs 7AVC - it can be paid on credit so that you do not need AVC to buy food to feed the pet - you only get 1AVC for feeding the pet in that case!
+20.	All species can be resold everywhere, not limited to specific coin as long as they stay on Matic. 
+21.	Pets can get perks - bought in AVC.
+22.	Perks can be created by anyone - A creator receives 50% of the fees when applying theri perks to the pet, 50% of the fees get burned.
+23.	The higher the amount of health, happiness and wellbeing restores, more AVC they receive.
+24.	100% health gives 1 AVC, 100% wellbeing gives 1 AVC, a 100% fed pet gives 8 AVC
+25.	Food costs 7AVC - it can be paid on credit so that you do not need AVC to buy food to feed the pet - you only get 1AVC for feeding the pet in that case!
